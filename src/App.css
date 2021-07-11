@@ -1,0 +1,63 @@
+.App-header {
+  background-color: #000;
+  display: flex;
+}
+
+.link {
+  background-color: grey;
+  cursor: pointer;
+  margin: 20px;
+  padding: 20px;
+}
+
+.selected {
+  background-color: orange;
+  color: #fff;
+}
+
+.section {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.section > * {
+  width: 30%;
+}
+
+datalist {
+  display: block;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.d-flex {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.page {
+  border-right: 1px solid grey;
+  cursor: pointer;
+  margin: 10px;
+  padding: 20px;
+}
+
+.article {
+  border: 1px solid grey;
+  margin: 20px;
+  padding: 50px;
+  width: 200px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
